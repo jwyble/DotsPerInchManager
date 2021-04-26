@@ -24,11 +24,11 @@ public:
 	int unScaleY(int y) {
 		return MulDiv(y, 96, _dotsPerInchY);
 	};
-	int scaledHeightOfScreen() {
-		return scaledSystemMetricsY(SM_CYSCREEN);
-	};
 	int scaledWidthOfScreen() {
 		return scaledSystemMetricsX(SM_CXSCREEN);
+	};
+	int scaledHeightOfScreen() {
+		return scaledSystemMetricsY(SM_CYSCREEN);
 	};
 	void scaleRect(__inout RECT* rect) {
 		rect->left = scaleX(rect->left);
