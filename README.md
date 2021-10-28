@@ -3,6 +3,8 @@ This is a dots-per-inch (DPI) manager for C/C++ programs.
 
 It is used to control the DPI aware status of GUI-based C++ software.
 
+By default, in the manifest file, the DPI-aware status is labeled *yes*. If you want to disable DPI-aware, change the DPI-aware status to *no* (note that this is not recommended).
+
 ## Files
 **dotsPerInchManager.h** - The primary header file for this DPI-Aware wrapper. It includes scaling/unscaling, height, width, and pixel management.
 
